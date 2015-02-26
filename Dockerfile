@@ -2,7 +2,7 @@
 # Base image for images driven by Tiller (a configuration templating/bootstrapping tool)
 #
 # docker-build properties:
-# TAG=barchart/tiller
+# TAG=barchart/tiller:latest
 
 FROM barchart/base
 MAINTAINER Jeremy Jongsma "jeremy@barchart.com"
