@@ -1,4 +1,6 @@
-docker-java
-===========
+docker-tiller
+=============
 
-Docker image for deploying java applications
+Base image for launching driven by Tiller (a configuration templating/bootstrapping tool)
+
+https://github.com/markround/tiller
