@@ -13,4 +13,4 @@ RUN apt-get --yes update && \
 	gem install tiller && \
 	rm -rf /var/lib/gems/*/cache/*
 
-CMD ["/usr/local/bin/tiller", "-v"]
+CMD ["/usr/local/bin/tiller", "-v", "-e", "production"]
